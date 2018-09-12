@@ -9,6 +9,7 @@ def reformat_languages(languages)
       if r.has_key?(k2)
         r[k2][:style]+=[k1]
       else
+        r[k2]={}
         r[k2][:style]=[k1]
         r[k2][:type]=v1[:type]
       end
