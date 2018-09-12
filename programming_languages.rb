@@ -8,7 +8,7 @@ def reformat_languages(languages)
     languages[k1].each do |k2,v1|
       if r.has_key?(k2)
         r[k2][:style]+=[k1]
-      elsee
+      else
         r[k2][:style]=[k1]
         r[k2][:type]=[v1]
       end
