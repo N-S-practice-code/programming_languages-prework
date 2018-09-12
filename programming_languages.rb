@@ -3,6 +3,7 @@ require "pry"
 def reformat_languages(languages)
   binding.pry
   r={}
+  puts r
   languages.each_key do |k1|
     puts "test1"
     languages[k1].each do |k2,v1|
