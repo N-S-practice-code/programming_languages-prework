@@ -7,4 +7,5 @@ def reformat_languages(languages)
       r[k2]={:type => v1, :style => [k1]}
     end
   end
+  r
 end
