@@ -4,7 +4,7 @@ def reformat_languages(languages)
   r={}
   puts r
   languages.each_key do |k1|
-    binding.pry
+    # binding.pry
     languages[k1].each do |k2,v1|
       if r.has_key?(k2)
         r[k2][:style]+=[k1]
