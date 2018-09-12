@@ -1,4 +1,4 @@
-reqire
+require "pry"
 # k2languages
 def reformat_languages(languages)
   r={}
