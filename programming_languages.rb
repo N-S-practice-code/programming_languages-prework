@@ -1,7 +1,6 @@
 require "pry"
 # k2 languages
 def reformat_languages(languages)
-  binding.pry
   r={}
   puts r
   languages.each_key do |k1|
