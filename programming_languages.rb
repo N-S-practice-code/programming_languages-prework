@@ -1,3 +1,6 @@
 def reformat_languages(languages)
-  languages.each do ||
+  r={}
+  languages.each do |k1,v1|
+    
+  end
 end
