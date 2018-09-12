@@ -1,6 +1,8 @@
 def reformat_languages(languages)
   r={}
-  languages.each do |k1,v1|
-    
+  languages.each_key do |k1|
+    k1.each do |k2,v1|
+      
+    end
   end
 end
