@@ -1,5 +1,5 @@
 require "pry"
-# k2languages
+# k2 languages
 def reformat_languages(languages)
   r={}
   languages.each_key do |k1|
@@ -13,6 +13,6 @@ def reformat_languages(languages)
       end
     end
   end
-  puts r
+  binding.pry
   r
 end
