@@ -12,5 +12,6 @@ def reformat_languages(languages)
       end
     end
   end
+  puts r
   r
 end
